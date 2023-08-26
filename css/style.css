@@ -1,0 +1,93 @@
+body{
+    background-color:hsl(0, 0%, 100%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.avatar {
+    width: 30px; /* Set the desired width */
+    height: 30px; /* Set the desired height */
+    overflow: hidden; /* Clip any excess content */
+    border-radius: 50%; /* Make the image circular for an avatar look */
+  }
+  
+.avatar img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.icon-container {
+    display: flex;
+    gap: 40px; /* Set the desired spacing between boxes */
+
+}
+  
+.navigation-bar{
+    justify-content: space-between;
+    padding: 10px 10%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.main-p{
+    color: hsl(26, 100%, 55%) ;
+}
+
+.main-section h4{
+    display: inline;
+    padding-right: 10px;
+}
+.price-container .main-p{
+    background-color: hsl(25, 100%, 94%);
+}
+.btn-color{
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 70%;
+}
+
+.item-count {
+    width: 60px; /* Set the desired width */
+    border-radius: 0;
+    background-color: hsl(223, 64%, 98%);
+    color: black;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+
+.minus-btn {
+    border-radius: 5px 0 0 5px;
+    background-color: hsl(223, 64%, 98%);
+    color: hsl(26, 100%, 55%);
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.plus-btn{
+    border-radius: 0 5px 5px 0;
+    background-color:hsl(223, 64%, 98%);
+    color: hsl(26, 100%, 55%);
+    font-size:15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.cart{
+    width:50%;
+}
+.cart-selector{
+    display: inline;
+    padding:20px 10px;
+}
+
+h3{
+    font-weight:700;
+}
+p{
+    font-size:16px;
+}
